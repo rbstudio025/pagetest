@@ -1329,17 +1329,24 @@ section {
      .contact .colcontactinput, .contact .colcontact textarea {font-size: 12px;}
      .achievements .container .col-30 h1 { position:relative; left:60px; width:94%}
 
-     .contact {
+    .contact {
         background: url(../../assets/img/bg_contact_responsive.png) no-repeat;
         background-repeat: no-repeat;
         background-position: center top;
         background-size:102%;
       }
 
-      .achievements{
+    .achievements{
           background: url(../../assets/img/bg_achievements_responisve.png) no-repeat;
           background-repeat: no-repeat;
           background-position: center top;
-          background-size:102%;}
+          background-size:102% 110%;}
+
+    .associates .container h1 {margin-top:0px;}
+    .data {width: 90%; }
+    .data div:nth-child(1) {width: 100%;}
+    .data div:nth-child(2) {width: 100%;}
+    .conferences-workshops .workshop-card .content-hover { width: 100%;}
+
 
 }     
