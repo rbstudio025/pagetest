@@ -1300,8 +1300,33 @@ section {
   .teams .teamlist .foto {  width: 160px; height:160px;}
 
   .associates .container h1 {font-size:30px;}
-      .associates .content_box { width: 90%;}
-      .associates .content_box h3 { font-size: 18px;}
+      .associates .content_box { width: 95%; margin-left:0px; left: 2%; position: relative;}
+      .associates .content_box h3 { font-size: 20px;}
+      .associates .content_box a { width: 140px; font-size: 14px;  margin-left: -60px;}
+      .associates .content_box a svg {margin: 2px 12px 0px 5px;}
+      .associates .content_box p {font-size: 16px;  padding: 0px 20px;}
+
+     .achievements .container {width: 80% !important;}
+     .achievements .col-70 .box-achievements { width: 100%;}
+     .achievements .container .col-30 h1 {font-size:30px;}
+     .achievements .col-30 {margin: 50px 0px 0px 0px;}
+     .achievements .col-70 .box-a figure img { width: 60%;}
+     .achievements .col-70 .box-achievements h3 {font-size: 16px;padding: 4px 16px;}
+     .achievements .col-70 .box-b { margin: 20px 0px 0px 0px;}
+     .achievements .col-70 .box-c { margin: 20px 0px 0px 0px;}
+     .achievements .col-70 .box-d { margin: 20px 0px 0px 0px;}
+     .values .container h1 {font-size:30px;}
+
+     .values .container .col-lg-12 {display: flex; justify-content: center;flex-direction: column;}
+     .values .content_box {width: 98%; margin: 0px 0px 24px 0px;}
+     .values .container h1 {margin-bottom: 30px;}
+     .values .content_box h3 { font-size:22px;}
+     .values .content_box img {height: auto;}
+     .contact .container h2 {font-size: 24px;}
+     .contact .container h3 { font-size: 12px; line-height: 5px; margin-top: 4px; margin-bottom: 0px;}
+     .contact .colcontact input {padding: 6px 20px;}
+     .contact .colcontact input {font-size: 12px;}
+     .contact .colcontactinput, .contact .colcontact textarea {font-size: 12px;}
 
 }
 
