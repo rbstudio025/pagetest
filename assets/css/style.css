@@ -1327,7 +1327,19 @@ section {
      .contact .colcontact input {padding: 6px 20px;}
      .contact .colcontact input {font-size: 12px;}
      .contact .colcontactinput, .contact .colcontact textarea {font-size: 12px;}
+     .achievements .container .col-30 h1 { position:relative; left:60px; width:94%}
 
-}
+     .contact {
+        background: url(../../assets/img/bg_contact_responsive.png) no-repeat;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size:102%;
+      }
 
+      .achievements{
+          background: url(../../assets/img/bg_achievements_responisve.png) no-repeat;
+          background-repeat: no-repeat;
+          background-position: center top;
+          background-size:102%;}
 
+}     
